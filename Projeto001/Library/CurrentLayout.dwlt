@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 444}
   m_MaxSize: {x: 22012, y: 10022}
   vertical: 0
-  controlID: 107
+  controlID: 110
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 15
+  controlID: 116
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -313,10 +313,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -437.2
-    m_HBaseRangeMax: 437.2
-    m_VBaseRangeMin: -246
-    m_VBaseRangeMax: 246
+    m_HBaseRangeMin: -533.2
+    m_HBaseRangeMax: 533.2
+    m_VBaseRangeMin: -196.8
+    m_VBaseRangeMax: 196.8
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -388,12 +388,12 @@ MonoBehaviour:
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.19526854, y: -0.5832551, z: -2.85621}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: -0.19526854, y: -0.5832551, z: -2.85621}
   m_RenderMode: 0
@@ -416,25 +416,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.6455965
+    m_Target: 10
     speed: 2
     m_Value: 15.6455965
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -535,118 +535,16 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: -2009911548694123421, guid: fe7adb6f698a1384f8b22c268f17246a, type: 2}
-    - {fileID: 6735641312056161544, guid: 41b2fe11133317541945e6b3fce163df, type: 2}
     - {fileID: 130546843474274380, guid: 787d18b5b3c21b14ebafb448f8a3973f, type: 2}
-    - {fileID: 2303671576758607885, guid: 281b5f4fb9da49f429927e4e21e98e80, type: 2}
-    - {fileID: 3321727397483092295, guid: 57f47dbcb8765d348bba35219505d558, type: 2}
-    - {fileID: -5755285405267064411, guid: a2a8fe95496fb394ab3b3aaff11d74b7, type: 2}
-    - {fileID: 3319199020618119631, guid: 131d69394772fcc4baa3f33b19f89971, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.71157897
+    - e00: 1
       e01: 0
       e02: 0
-      e03: -20.578949
+      e03: 0
       e10: 0
-      e11: 0.71157897
+      e11: 1
       e12: 0
-      e13: 171.4
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.90105265
-      e01: 0
-      e02: 0
-      e03: -30.052643
-      e10: 0
-      e11: 0.90105265
-      e12: 0
-      e13: 147.75455
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.27067396
-      e01: 0
-      e02: 0
-      e03: 394.93304
-      e10: 0
-      e11: 0.27067396
-      e12: 0
-      e13: 226.84352
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.90105265
-      e01: 0
-      e02: 0
-      e03: -30.052643
-      e10: 0
-      e11: 0.90105265
-      e12: 0
-      e13: 152.9
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.90105265
-      e01: 0
-      e02: 0
-      e03: -30.052643
-      e10: 0
-      e11: 0.90105265
-      e12: 0
-      e13: 92.07895
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.99333334
-      e01: 0
-      e02: 0
-      e03: -69.79993
-      e10: 0
-      e11: 0.99333334
-      e12: 0
-      e13: 149.00003
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.389053
-      e01: 0
-      e02: 0
-      e03: 124.997955
-      e10: 0
-      e11: 0.389053
-      e12: 0
-      e13: 207.97942
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -733,7 +631,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8efbffff
+      m_ExpandedIDs: 62ebffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -801,14 +699,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 68
-  m_LastProjectPath: C:\Users\debax\Documents\GitHub\GameDev\EternoLabirinto
+  m_LastProjectPath: C:\Users\debax\Documents\GitHub\GameProject001\Projeto001
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 82290000
-    m_LastClickedID: 10626
-    m_ExpandedIDs: 00000000822900004e2a00007a2a0000fa2b0000be330000c0330000c2330000c4330000
+    m_SelectedIDs: 50370000
+    m_LastClickedID: 14160
+    m_ExpandedIDs: 0000000050370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -836,7 +734,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000822900004e2a00007a2a0000fa2b0000be330000c0330000c2330000c4330000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -888,7 +786,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 236}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 68
   m_DirectoriesAreaWidth: 110
 --- !u!114 &20
