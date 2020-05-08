@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - pushable
+  - Pushable
+  - Fish
+  - First Dialogue
   layers:
   - Default
   - TransparentFX
