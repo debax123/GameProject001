@@ -6,6 +6,7 @@ using UnityEngine.UI;
     [System.Serializable]
 public class NPC : MonoBehaviour
 {
+    public Image image;
     public Transform ChatBackground;
     public Transform NPCCharacter;
 
@@ -28,8 +29,8 @@ public class NPC : MonoBehaviour
     {
         //ChatBackground.position = Camera.main.WorldToScreenPoint(NPCCharacter.position + Vector3.up * 7f);
         Vector3 pos = Camera.main.WorldToScreenPoint(NPCCharacter.position);
-        pos.y += 100;
-        ChatBackground.position = pos;
+        //pos.y += 100;
+        ChatBackground.position = image.transform.position;
     }
 
     public void OnTriggerStay(Collider other)

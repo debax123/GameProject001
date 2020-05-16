@@ -21,6 +21,7 @@ public class Move2 : MonoBehaviour
 
     }
 
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -36,10 +37,10 @@ public class Move2 : MonoBehaviour
                 moveDirection.y = yStore;
 
 
+                    moveDirection.y = 0f;
 
                 if(controller.isGrounded)
                 {
-                    moveDirection.y = 0f;
                     if(Input.GetButtonDown("Jump"))
                     {
                         moveDirection.y = jumpForce;
@@ -81,7 +82,7 @@ public class Move2 : MonoBehaviour
             return;
         }
         moveDirection.y += 1;
-        Vector3 pushDir = new Vector3(hit.moveDirection.x, -0.5f, hit.moveDirection.z);
+        Vector3 pushDir = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
 
         body.velocity = pushDir * pushPower;
 
