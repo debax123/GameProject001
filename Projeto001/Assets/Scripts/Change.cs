@@ -17,7 +17,7 @@ public class Change : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.F4))
         {
-            ScoreScript.fishCount += 8;
+            ScoreScript.fishCount += 2;
         }
     }
 

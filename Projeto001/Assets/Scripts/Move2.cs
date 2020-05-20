@@ -27,8 +27,8 @@ public class Move2 : MonoBehaviour
     {
         //rb.velocity = new Vector3(Input.GetAxis("Horizontal") * moveSpped, rb.velocity.y, Input.GetAxis("Vertical") * moveSpped);
         //moveDirection = new Vector3(Input.GetAxis("Horizontal") * moveSpped, moveDirection.y, Input.GetAxis("Vertical") * moveSpped);
-        /*if (controller.enabled == true)
-        {*/
+        if (controller.enabled == true)
+        {
             if (DialogueSystem.dialogueActive == false)
             {
                 float yStore = moveDirection.y;
@@ -37,10 +37,10 @@ public class Move2 : MonoBehaviour
                 moveDirection.y = yStore;
 
 
-                    moveDirection.y = 0f;
 
                 if(controller.isGrounded)
                 {
+                    moveDirection.y = 0f;
                     if(Input.GetButtonDown("Jump"))
                     {
                         moveDirection.y = jumpForce;
@@ -56,7 +56,7 @@ public class Move2 : MonoBehaviour
                 moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale);
                 controller.Move(moveDirection * Time.deltaTime);
             }
-        //}
+        }
     }
 
     private void OnTriggerEnter(Collider other)
